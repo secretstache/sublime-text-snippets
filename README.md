@@ -1,5 +1,9 @@
 
-## Triggers
+## Installation
+
+1. Requires Sublime Text (3)
+2. open terminal and navigate to Sublime Text from the user directory: `Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ 
+3. clone into ssm: `git clone https://github.com/secretstache/sublime-text-snippets.git ssm`
 
 ---
 
@@ -18,6 +22,7 @@
 ### Hero Units
 
 `hImage` : Hero Unit with background image 
+
 `hVideo` : Hero Unit with background video
 
 ---
