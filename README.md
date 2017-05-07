@@ -19,11 +19,9 @@
 
 ---
 
-### Hero Units
+### Hero Unit
 
-`hImage` : Hero Unit with background image 
-
-`hVideo` : Hero Unit with background video
+`hero`
 
 ---
 
