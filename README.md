@@ -47,7 +47,7 @@
 
 ---
 
-### TODO: Templates
+### Templates
 
 `tCTA` : Call to Action
 
