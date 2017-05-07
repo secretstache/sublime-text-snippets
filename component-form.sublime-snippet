@@ -1,0 +1,54 @@
+<snippet>
+  <content><![CDATA[
+<div class="component form">
+  <div class="gform_wrapper">
+    <form>
+      <div class="gform_body">
+        <ul class="gform_fields">      
+          <li class="gfield">
+            <label class="gfield_label">${1:First Name}</label>
+            <div class="ginput_container">
+              <input type="text" placeholder="${1:First Name}">
+            </div>
+          </li>
+          <li class="gfield">
+            <label class="gfield_label">${2:Last Name}</label>
+            <div class="ginput_container">
+              <input type="text" placeholder="${2:Last Name}">
+            </div>
+          </li>
+          <li class="gfield">
+            <label class="gfield_label">${3:Email Address}</label>
+            <div class="ginput_container">
+              <input type="text" placeholder="${3:Email Address}">
+            </div>
+          </li>
+          <li class="gfield">
+            <label class="gfield_label">${4:Phone Number}</label>
+            <div class="ginput_container">
+              <input type="text" placeholder="${4:Phone Number}">
+            </div>
+          </li>
+          <li class="gfield">
+            <label class="gfield_label">${5:Subject}</label>
+            <div class="ginput_container">
+              <input type="text" placeholder="${5:Subject}">
+            </div>
+          </li>
+          <li class="gfield">
+            <label class="gfield_label">${6:Message}</label>
+            <div class="ginput_container">
+              <textarea placeholder="${6:Message}">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cForm</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

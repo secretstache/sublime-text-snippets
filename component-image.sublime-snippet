@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<div class="component image">
+  <img src="http://placehold.it/${1:1000}x${2:640}/${3:CCCCCC}/${4:000000}.png" />
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cImage</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

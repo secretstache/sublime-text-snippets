@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<div class="row align-center header-wrap">
+  <div class="small-12 column">
+    <header class="section-header">
+      <h${1:1} class="headline">${2}</h${1:1}>
+      <h${3:2} class="subheadline">${4}</h${3:2}>
+    </header>
+   </div>
+ </div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cHeader</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<section class="hero-unit bg-image" style="background-image: url(http://placehold.it/${1:1440}x${2:800}/${3:CCCCCC}/${4:000000}.png">
+  <div class="overlay"></div>
+  <div class="row align-center header-wrap">
+    <div class="small-12 medium-${5:10} column">
+      <header class="section-header">
+        <h1 class="headline">${6}</h1>
+        <h2 class="subheadline">${7}</h2>
+      </header>
+      <a class="button" src="${8:#}">${9:Learn More}</a>
+    </div>
+ </div>
+</section>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hImage</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<section class="content-block${1}">
+  <div class="row has-one-column align-center medium-collapse">
+    <div class="small-12 medium-${2:10} column">
+      <div class="inner">
+        ${3}
+      </div>
+    </div>
+  </div>
+</section>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet ${1:this}-->
+  <tabTrigger>s1</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+<section class="hero-unit bg-video">
+  <video class="hero-video" autoplay loop>
+    <source src="${1}" type="video/mp4">
+  </video>
+  <div class="overlay"</div>
+  <div class="row align-center align-middle header-wrap">
+    <div class="small-12 medium-${2:10} column">
+      <header class="section-header">
+        <h1 class="headline">${3}</h1>
+        <h2 class="subheadline">${4}</h2>
+      </header>
+      <a class="button" src="${5:#}">${6:Learn More}</a>
+    </div>
+ </div>
+</section>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hVideo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

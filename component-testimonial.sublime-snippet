@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<div class="row align-center align-top">
+  <div class="small-12 medium-9 column">
+    <ul class="testimonials" data-equalizer>
+      <li data-equalizer-watch>
+        <blockquote>${1}</blockquote>
+        <cite>${2}</cite>
+      </li>
+    </ul>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cTestimonial</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
