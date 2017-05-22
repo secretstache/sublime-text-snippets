@@ -38,10 +38,13 @@
           <li class="gfield">
             <label class="gfield_label">${6:Message}</label>
             <div class="ginput_container">
-              <textarea placeholder="${6:Message}">
+              <textarea placeholder="${6:Message}"></textarea>
             </div>
           </li>
         </ul>
+      </div>
+      <div class="gform_footer">
+        <input type="submit" class="gform_button button" value="Submit">
       </div>
     </form>
   </div>
