@@ -1,25 +1,27 @@
 <snippet>
   <content><![CDATA[
 <section class="content-block">
-  <div class="row has-2-cols align-middle">
-    <div class="small-12 medium-4 column">
-      <div class="inner">
-        <div class="component image">
-          <img src="${1:http://placehold.it/1000x640/CCCCCC/000000.png}" alt/>
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x has-2-cols align-middle">
+      <div class="small-12 medium-4 cell">
+        <div class="inner">
+          <div class="component image">
+            <img src="${1:http://placehold.it/1000x640/CCCCCC/000000.png}" alt/>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="small-12 medium-8 column">
-      <div class="inner">
-        <header class="component">
-          <h2 class="headline">${2}</h2>
-          <h3 class="subheadline">${3}</h3>
-        </header>
-        <div class="component default">
-          
-        </div>
-        <div class="component buttons">
-          <a class="button" src="${4}">${5:Click Here}</a>
+      <div class="small-12 medium-8 cell">
+        <div class="inner">
+          <header class="component">
+            <h2 class="headline">${2}</h2>
+            <h3 class="subheadline">${3}</h3>
+          </header>
+          <div class="component default">
+            
+          </div>
+          <div class="component buttons">
+            <a class="button" src="${4}">${5:Click Here}</a>
+          </div>
         </div>
       </div>
     </div>

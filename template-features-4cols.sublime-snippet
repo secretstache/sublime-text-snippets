@@ -1,56 +1,58 @@
 <snippet>
   <content><![CDATA[
 <section class="content-block">
-  <div class="row has-4-cols align-${1:top}"${2: data-equalizer}>
-    <div class="small-12 medium-3 column">
-      <div class="inner"${3: data-equalizer-watch}>
-        <div class="component image ">
-          <img src="${4:http://placehold.it/300x300/CCCCCC/000000.png}" />
-        </div>
-        <header class="component">
-          <h2 class="headline">${5}</h2>
-        </header>
-        <div class="component default">
-          <p>${6:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
-        </div>
-      </div>
-    </div>
-    <div class="small-12 medium-3 column">
-      <div class="inner"${3: data-equalizer-watch}>
-        <div class="component image ">
-          <img src="${7:http://placehold.it/300x300/CCCCCC/000000.png}" />
-        </div>
-        <header class="component">
-          <h2 class="headline">${8}</h2>
-        </header>
-        <div class="component default">
-          <p>${9:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x has-4-cols align-${1:top}"${2: data-equalizer}>
+      <div class="small-12 medium-3 cell">
+        <div class="inner"${3: data-equalizer-watch}>
+          <div class="component image ">
+            <img src="${4:http://placehold.it/300x300/CCCCCC/000000.png}" />
+          </div>
+          <header class="component">
+            <h2 class="headline">${5}</h2>
+          </header>
+          <div class="component default">
+            <p>${6:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="small-12 medium-3 column">
-      <div class="inner"${3: data-equalizer-watch}>
-        <div class="component image ">
-          <img src="${10:http://placehold.it/300x300/CCCCCC/000000.png}" />
-        </div>
-        <header class="component">
-          <h2 class="headline">${11}</h2>
-        </header>
-        <div class="component default">
-          <p>${12:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+      <div class="small-12 medium-3 cell">
+        <div class="inner"${3: data-equalizer-watch}>
+          <div class="component image ">
+            <img src="${7:http://placehold.it/300x300/CCCCCC/000000.png}" />
+          </div>
+          <header class="component">
+            <h2 class="headline">${8}</h2>
+          </header>
+          <div class="component default">
+            <p>${9:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="small-12 medium-3 column">
-      <div class="inner"${3: data-equalizer-watch}>
-        <div class="component image ">
-          <img src="${13:http://placehold.it/300x300/CCCCCC/000000.png}" />
+      <div class="small-12 medium-3 cell">
+        <div class="inner"${3: data-equalizer-watch}>
+          <div class="component image ">
+            <img src="${10:http://placehold.it/300x300/CCCCCC/000000.png}" />
+          </div>
+          <header class="component">
+            <h2 class="headline">${11}</h2>
+          </header>
+          <div class="component default">
+            <p>${12:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+          </div>
         </div>
-        <header class="component">
-          <h2 class="headline">${14}</h2>
-        </header>
-        <div class="component default">
-          <p>${15:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+      </div>
+      <div class="small-12 medium-3 cell">
+        <div class="inner"${3: data-equalizer-watch}>
+          <div class="component image ">
+            <img src="${13:http://placehold.it/300x300/CCCCCC/000000.png}" />
+          </div>
+          <header class="component">
+            <h2 class="headline">${14}</h2>
+          </header>
+          <div class="component default">
+            <p>${15:Nullam eleifend maximus tortor vel fermentum. Praesent ultrices interdum neque sed eleifend. Nunc auctor semper libero vel laoreet.}</p>
+          </div>
         </div>
       </div>
     </div>

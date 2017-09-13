@@ -1,21 +1,23 @@
 <snippet>
   <content><![CDATA[
 <section class="content-block${1}">
-  <div class="row has-4-cols align-${2:top}"${3: data-equalizer}>
-    <div class="small-12 medium-${4:3} column">
-      <div class="inner"${5: data-equalize-watch}>
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x has-4-cols align-${2:top}"${3: data-equalizer}>
+      <div class="small-12 medium-${4:3} cell">
+        <div class="inner"${5: data-equalize-watch}>
+        </div>
       </div>
-    </div>
-    <div class="small-12 medium-${4:3} column">
-      <div class="inner"${5: data-equalize-watch}>
+      <div class="small-12 medium-${4:3} cell">
+        <div class="inner"${5: data-equalize-watch}>
+        </div>
       </div>
-    </div>
-    <div class="small-12 medium-${4:3} column">
-      <div class="inner"${5: data-equalize-watch}>
+      <div class="small-12 medium-${4:3} cell">
+        <div class="inner"${5: data-equalize-watch}>
+        </div>
       </div>
-    </div>
-    <div class="small-12 medium-${4:3} column">
-      <div class="inner"${5: data-equalize-watch}>
+      <div class="small-12 medium-${4:3} cell">
+        <div class="inner"${5: data-equalize-watch}>
+        </div>
       </div>
     </div>
   </div>

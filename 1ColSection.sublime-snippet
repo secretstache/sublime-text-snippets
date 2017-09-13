@@ -1,10 +1,12 @@
 <snippet>
   <content><![CDATA[
 <section class="content-block${1}">
-  <div class="row has-one-column align-center medium-collapse">
-    <div class="small-12 medium-${2:10} column">
-      <div class="inner">
-        ${3}
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x has-one-column align-center medium-collapse">
+      <div class="small-12 medium-${2:10} cell">
+        <div class="inner">
+          ${3}
+        </div>
       </div>
     </div>
   </div>
